@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang = 'en'>
+    <head>
+        <meta name="viewport" content="initial-scale=1m width=device-width">
+        <title>
+            Write post
+        </title>
+    </head>
+    <body>
+        <p>Write a post</p>
+        <form action="/createpost" method="post">
+            <input name="title" placeholder="Title" type = "text"><br>
+            <input name="description" placeholder="Description" type = "text"><br>
+            Post Type: <select name="type">
+                <option value="Text">Text</option>
+                <option value="Poll">Poll</option>
+                <option value="Event">Event</option>
+            </select><br>
+            <input type="submit" value="post">
+        </form>
+    </body>
+</html>

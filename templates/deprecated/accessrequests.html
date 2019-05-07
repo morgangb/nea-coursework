@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html lang = 'en'>
+    <head>
+        <meta name="viewport" content="initial-scale=1m width=device-width">
+        <title>
+            Access Requests
+        </title>
+    </head>
+    <body>
+        <p>Access requests:</p>
+        <p>{{accessrequests}}</p>
+        <form action="/approverequest" method="post">
+            <input type="submit" value="approve top request">
+        </form>
+        <form action="/denyrequest" method="post">
+            <input type="submit" value="deny top request">
+        </form>
+    </body>
+</html>

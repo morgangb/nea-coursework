@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang = 'en'>
+    <head>
+        <meta name="viewport" content="initial-scale=1m width=device-width">
+        <title>
+            Request Access
+        </title>
+    </head>
+    <body>
+        <p>Request different access level</p>
+        <form action="/dorequestaccess" method="post">
+            <select name = "newlevel">
+                <option value = 1>1 (Administrator)</option>
+                <option value = 2>2 (Teacher)</option>
+                <option value = 3>3 (Student)</option>
+            </select>
+            <input name="reason" placeholder="Reason for access request" type = "text">
+            <input type="submit" value="Submit Request">
+        </form>
+    </body>
+</html>
